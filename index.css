@@ -10,6 +10,7 @@ body {
   flex-direction: column;
 }
 header {
+  flex-shrink: 0;
   background-color: #FBFFF4;
   height: 80px;
   width: 100%;
@@ -36,6 +37,7 @@ main {
   flex-grow: 1;
 }
 footer {
+  flex-shrink: 3;
   background-color: #DAEEEF;
   height: 80px;
   width: 100%;
